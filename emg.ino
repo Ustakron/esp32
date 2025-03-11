@@ -2,9 +2,9 @@
 #include <PubSubClient.h>
 
 // WiFi & MQTT Configuration
-const char* ssid = "Tik";
-const char* password = "paul8899";
-const char* mqtt_server = "test.mosquitto.org";
+const char* ssid = "Username";
+const char* password = "Password";
+const char* mqtt_server = "mqtt broker";
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
